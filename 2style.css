@@ -1,0 +1,61 @@
+
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(153, 148, 148);
+}
+
+button {
+    background:  rgb(115, 241, 241);
+    display: inline;
+    margin: top 10px;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-color:rgb(240, 238, 238);
+    border: radius 10px; ;
+
+}
+
+.container {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    background-color:rgb(240, 228, 228);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: (110,110,110,0.226);
+
+}
+
+form {
+    margin: auto;
+    width: 750px;
+    height: 600px;
+    background-color:rgb(247, 106, 117);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+input[type=text], input[type=checkbox] {
+    display: inline-block
+}
+
+.login-div {
+    text-align: center;
+}
